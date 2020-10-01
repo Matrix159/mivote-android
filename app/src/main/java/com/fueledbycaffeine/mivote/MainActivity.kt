@@ -3,9 +3,11 @@ package com.fueledbycaffeine.mivote
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.Text
+import androidx.compose.foundation.layout.Column
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.setContent
 import androidx.ui.tooling.preview.Preview
 import com.fueledbycaffeine.mivote.ui.MIVoteTheme
@@ -27,6 +29,13 @@ class MainActivity : AppCompatActivity() {
 @Composable
 fun Greeting(name: String) {
   Text(text = "Hello $name!")
+}
+
+@Composable
+fun VoterForm() {
+  Column {
+
+  }
 }
 
 @Preview(showBackground = true)
